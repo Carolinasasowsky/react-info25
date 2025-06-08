@@ -1,0 +1,11 @@
+.navbar {
+  background-color: black;
+  color: white;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.logo {
+  height: 35px;
+}
