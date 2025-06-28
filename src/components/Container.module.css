@@ -1,0 +1,19 @@
+.container {
+  padding: 1rem;
+  max-width: 1600px; /* centramos todo dentro de un ancho máximo */
+  margin: 0 auto;     /* centrado horizontal */
+}
+
+.title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  color: white;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* centrado horizontal de las cards */
+  gap: 2rem; /* espacio entre cards */
+}

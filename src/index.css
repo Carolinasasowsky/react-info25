@@ -1,0 +1,6 @@
+body {
+  margin: 0;
+  background-color: #141414; /* gris oscuro tipo Netflix */
+  color: white; /* asegura que el texto sea visible */
+  font-family: Arial, sans-serif; /* o el que prefieras */
+}
