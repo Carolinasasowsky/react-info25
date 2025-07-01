@@ -4,6 +4,8 @@ export type Movie = {
 	category: string;
 	duration: string;
 	image: string;
+	youtube: string;
+	//youtube: string;
 };
 
 export const movies: Movie[] = [
@@ -12,56 +14,64 @@ export const movies: Movie[] = [
 		title: "Origen",
 		category: "Sci-Fi",
 		duration: "2h 28m",
-		image: "/public/origen.jpg"
+		image: "/public/origen.jpg",
+		youtube: "https://www.youtube.com/watch?v=RV9L7ui9Cn8",
 	},
 	{
 		id: "2",
 		title: "Titanic",
 		category: "Drama",
 		duration: "3h 15m",
-		image: "/public/titanic.jpg"
+		image: "/public/titanic.jpg",
+		youtube: "https://www.youtube.com/watch?v=LuPB43YSgCs",
 	},
 	{
 		id: "3",
 		title: "The Dark Knight",
 		category: "Action",
 		duration: "2h 32m",
-		image: "/public/dark-knight.jpg"
+		image: "/public/dark-knight.jpg",
+		youtube: "https://www.youtube.com/watch?pp=0gcJCfwAo7VqN5tD&v=EXeTwQWrcwY",
 	},
 	{
 		id: "4",
 		title: "Interstellar",
 		category: "Sci-Fi",
 		duration: "2h 49m",
-		image: "/public/interstellar.jpg"
+		image: "/public/interstellar.jpg",
+		youtube: "https://www.youtube.com/watch?v=zSWdZVtXT7E",
 	},
 	{
 		id: "5",
 		title: "Avengers: Endgame",
 		category: "Action",
 		duration: "3h 1m",
-		image: "/public/endgame.jpg"
+		image: "/public/endgame.jpg",
+		youtube: "https://www.youtube.com/watch?v=TcMBFSGVi1c",
 	},
 	{
 		id: "6",
 		title: "La La Land",
 		category: "Romance",
 		duration: "2h 8m",
-		image: "/public/lalaland.jpg"
+		image: "/public/lalaland.jpg",
+		youtube: "https://www.youtube.com/watch?v=0pdqf4P9MB8",
 	},
 	{
 		id: "7",
 		title: "Parasyte",
 		category: "Thriller",
 		duration: "2h 12m",
-		image: "/public/parasyte.jpg"
+		image: "/public/parasyte.jpg",
+		youtube: "https://www.youtube.com/watch?v=maIGHqJB6aQ",
 	},
 	{
 		id: "8",
 		title: "Toy Story",
 		category: "Animation",
 		duration: "1h 21m",
-		image: "/public/toy-story.jpg"
+		image: "/public/toy-story.jpg",
+		youtube: "https://www.youtube.com/watch?v=v-PjgYDrg70",
 	},
 
 	{
@@ -69,7 +79,8 @@ export const movies: Movie[] = [
 		title: "Lilo y Stitch",
 		category: "Animation",
 		duration: "1h 48m",
-		image: "/public/lilo-stitch.jpg"
+		image: "/public/lilo-stitch.jpg",
+		youtube: "https://www.youtube.com/watch?v=VWqJifMMgZE",
 	},
 
 	{
@@ -77,98 +88,112 @@ export const movies: Movie[] = [
 		title: "Encanto",
 		category: "Animation",
 		duration: "1h 42m",
-		image: "/public/encanto.jpg"
+		image: "/public/encanto.jpg",
+		youtube: "https://www.youtube.com/watch?v=CaimKeDcudo",
 	},
 	{
 		id: "11",
 		title: "The Whale",
 		category: "Drama",
 		duration: "1h 57m",
-		image: "/public/the-whale.jpg"
+		image: "/public/the-whale.jpg",
+		youtube: "https://www.youtube.com/watch?v=nWiQodhMvz4",
 	},
 	{
 		id: "12",
 		title: "Dune: Part One",
 		category: "Sci-Fi",
 		duration: "2h 35m",
-		image: "/public/dune.jpg"
+		image: "/public/dune.jpg",
+		youtube: "https://www.youtube.com/watch?v=n9xhJrPXop4",
 	},
 	{
 		id: "13",
 		title: "Bullet Train",
 		category: "Action",
 		duration: "2h 6m",
-		image: "/public/bullet-train.jpg"
+		image: "/public/bullet-train.jpg",
+		youtube: "https://www.youtube.com/watch?v=0IOsk2Vlc4o",
 	},
 	{
 		id: "14",
 		title: "Past Lives",
 		category: "Romance",
 		duration: "1h 46m",
-		image: "/public/past-lives.jpg"
+		image: "/public/past-lives.jpg",
+		youtube: "https://www.youtube.com/watch?v=kA244xewjcI",
 	},
 	{
 		id: "15",
 		title: "The Mitchells vs. The Machines",
 		category: "Animation",
 		duration: "1h 54m",
-		image: "/public/mitchells-machines.jpg"
+		image: "/public/mitchells-machines.jpg",
+		youtube: "The Mitchells vs the Machines trailer",
 	},
 	{
 		id: "16",
 		title: "Aftersun",
 		category: "Drama",
 		duration: "1h 41m",
-		image: "/public/aftersun.jpg"
+		image: "/public/aftersun.jpg",
+		youtube: "https://www.youtube.com/watch?v=vXKcWRu8K_U",
 	},
 	{
 		id: "17",
 		title: "Nope",
 		category: "Sci-Fi",
 		duration: "2h 10m",
-		image: "/public/nope.jpg"
+		image: "/public/nope.jpg",
+		youtube: "https://www.youtube.com/watch?v=In8fuzj3gck",
 	},
 	{
 		id: "18",
 		title: "The Fall Guy",
 		category: "Action",
 		duration: "2h 6m",
-		image: "/public/fall-guy.jpg"
+		image: "/public/fall-guy.jpg",
+		youtube: "https://www.youtube.com/watch?v=j7jPnwVGdZ8",
 	},
 	{
 		id: "19",
 		title: "All of Us Strangers",
 		category: "Romance",
 		duration: "1h 45m",
-		image: "/public/stranger.jpg"
+		image: "/public/stranger.jpg",
+		youtube: "https://www.youtube.com/watch?v=O97iSjvqBlY",
 	},
 	{
 		id: "20",
 		title: "The Holdovers",
 		category: "Drama",
 		duration: "2h 13m",
-		image: "/public/the-holdovers.jpg"
+		image: "/public/the-holdovers.jpg",
+		youtube: "https://www.youtube.com/watch?v=AhKLpJmHhIg",
 	},
 	{
 		id: "21",
 		title: "One Day",
 		category: "Romance",
 		duration: "1h 44m",
-		image: "/public/one-day.jpg"
+		image: "/public/one-day.jpg",
+		youtube: "https://www.youtube.com/watch?v=X8vGnkXd9rA",
 	},
 	{
 		id: "22",
 		title: "The Creator",
 		category: "Sci-Fi",
 		duration: "2h 13m",
-		image: "/public/creator.jpg"
+		image: "/public/creator.jpg",
+		youtube: "The Creator 2023 trailer",
 	},
 	{
 		id: "23",
 		title: "They Cloned Tyrone",
 		category: "Sci-Fi",
 		duration: "2h 2m",
-		image: "/public/cloned-tyrone.jpg"
-	}
+		image: "/public/cloned-tyrone.jpg",
+		youtube: "https://www.youtube.com/watch?v=8AWIF8maEP4",
+	},
 ];
 
